@@ -74,3 +74,22 @@
   .nav_toggle {
       display: none;
   }
+
+  .inicio {
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    height: 600px;
+}
+
+
+.titulo1 h1{
+  font-style: Oswald;
+  font-size: 80px;
+  color: #6f284c;
+  text-shadow: #a26684 0.05em 0.05em 0.1em;
+  text-align: center;
+  margin-top: -40%;
+}
