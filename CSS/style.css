@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+  }
+  h1{
+      
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Lobster Two', cursive;
+  }
+    
+    
+  .a {
+      display: block;
+      padding: 8px;
+      background-color: #dddddd;
+    }
+    .header {
+      width: 100%;
+      position: fixed;
+      z-index: 100;
+  }
+  
+  
+  .navbar {
+      background: #fbdae0;
+      height: 60px;
+      display: flex;
+      color: white;
+      justify-content: space-between;
+      align-items: center;
+  }
+    
+  .nav_logo {
+      font-weight: bold;
+      font-size: 2%;
+      margin: 1.2rem;
+  }
+    
+  .nav_logo img {
+      width: 10px;
+      height: 10px;
+      opacity: .2;
+  }
+    
+  .nav_items a {
+      margin: 1.2rem;
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      padding: 10px;
+      transition: all 0.2s linear;
+  }
+    
+  .nav_items a::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 0;
+      height: 2px;
+      background-color: #a26684;
+    
+  }
+    
+  .nav_items a:hover {
+      background-color: #6f284c;
+      color: white;
+      border-radius: 5px;
+  }
+    
+  .nav_items a:hover::before {
+      width: 100% !important;
+  }
+    
+  .nav_toggle {
+      display: none;
+  }
